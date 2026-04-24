@@ -1,8 +1,8 @@
 const express = require("express");
-const User    = require("../userModel");
-const { callAI }   = require("../services/aiService");
-const { getStock } = require("../services/stockService");
-const { getNews }  = require("../services/newsService");
+const User    = require("../../userModel");
+const { callAI }   = require("../../services/aiService");
+const { getStock } = require("../../services/stockService");
+const { getNews }  = require("../../services/newsService");
 
 const router = express.Router();
 
